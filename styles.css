@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    font-family: Consolas, monaco, monospace;
+
+    --dark: #222;
+    --very-dark: #111;
+    --light: #eee;
+
+    --primary: rgb(37, 69, 255);
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+}
